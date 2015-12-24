@@ -1,0 +1,84 @@
+body {
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.ca {
+    display: none;
+}
+
+#all {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 12px 0 15px -4px rgba(150, 150, 150, 0.8), -12px 0 8px -4px rgba(150, 150, 150, 0.8);
+    overflow-y: auto;
+}
+
+.footer {
+    width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller;
+    padding: 5px 5px 10px 5px;
+}
+
+.header {
+    font-size: 4em;
+    padding: 10px;
+    background: url("../img/randomwalk.png");
+}
+
+.content {
+    padding: 5px 20px 5px 20px;
+}
+
+img.photo {
+    float: right;
+    margin-left: 10px;
+}
+
+.my-name {
+}
+
+ul.pubs-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pubs-list li {
+    position: relative;
+}
+
+li .metadata {
+    position: absolute;
+    right: 0;
+    width: 5em;
+}
+
+li .citation {
+    padding-right: 7em;
+}
+
+li .abstract {
+    padding: 10px;
+    font-size: smaller;
+}
+
+.abstract h4 {
+    display: inline;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.abstract h4::after {
+    content: ": " 
+}
+.abstract p {
+    display: inline;
+}
+
+h2 {
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #999;
+}

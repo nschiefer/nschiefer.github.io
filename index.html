@@ -1,9 +1,93 @@
-<html>
-<head>
-<title>Nicholas Schiefer</title>
-</head>
+<!doctype html>
 
-<body>
-Under construction. New page coming January 1, 2016.
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nicholas Schiefer</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript">
+            function toggleAbstract(abstract_id) {
+                var ele = document.getElementById(abstract_id);
+
+                if (ele.style.display == "block") { // then hide
+                    ele.style.display = "none";
+                } else { // then show
+                    ele.style.display = "block";
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="all">
+            <div class="header">
+                Nicholas Schiefer
+            </div>
+
+            <div class="content">
+            
+
+            <div class="bio">
+
+                <h2>About Me</h2>
+                
+                <img class="photo" src="img/bio_photo.jpg" height=200px />
+                <p>
+                I am a <span class="us">senior</span><span class="ca">fourth-year</span> at <a href="http://caltech.edu">Caltech</a> in the <a href="http://cms.caltech.edu">computer science</a> option.
+                My research interests focus on algorithms and algorithmic <span class="us">behavior</span><span class="ca">behaviour</span>, with a focus on algorithms in useful or unusual settings.
+                I have research experience in several different fields, including information retrieval, computational biophysics, quantum computing, molecular programming, and causal inference.
+                </p>
+                
+                <p>Originally from Toronto, Canada, I am a proud member and <a href="http://ihc.caltech.edu/roster.html">current president</a> of <a href="https://dabney.caltech.edu">Dabney House</a>.</p>
+
+                <p>My <a href="pdf/cv.pdf">CV</a> is available.</p>
+            </p>
+            </div>
+
+            <h2>Publications</h2>
+
+            <ul class="pubs-list">
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2015-dna21-crn-tam')">[abstract]</a>
+                        <a href="http://link.springer.com/chapter/10.1007%2F978-3-319-21999-8_3">[link]</a>
+                        <a href="papers/2015-dna21-crn-tam.pdf">[pdf]</a>
+                    </div>
+                    <div class="citation">
+                        <span class="my-name">Nicholas Schiefer</span> and
+                        <a href="http://www.dna.caltech.edu/~winfree/">Erik Winfree</a>, “Universal Computation and Optimal Construction in the Chemical Reaction Network-Controlled Tile Assembly Model”,
+                        <em>21st International Conference on DNA Computing and Molecular Programming
+                            (<a href="http://dna21.wyss.harvard.edu/">DNA21</a>)</em>,
+                        2015, <em>Lecture Notes in Computer Science</em> vol. 9211, pp. 34–54.
+                    </div>
+                    
+                    <div class="abstract" id="2015-dna21-crn-tam" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            Tile-based self-assembly and chemical reaction networks provide two well-studied models of scalable DNA-based computation. Although tile self-assembly provides a powerful framework for describing Turing-universal self-assembling systems, assembly logic in tile self-assembly is localized, so that only the nearby environment can affect the process of self-assembly. We introduce a new model of tile-based self-assembly in which a well-mixed chemical reaction network interacts with self-assembling tiles to exert non-local control on the self-assembly process. Through simulation of multi-stack machines, we demonstrate that this new model is efficiently Turing-universal, even when restricted to unbounded space in only one spatial dimension. Using a natural notion of program complexity, we also show that this new model can produce many complex shapes with programs of lower complexity. Most notably, we show that arbitrary connected shapes can be produced by a program with complexity bounded by the Kolmogorov complexity of the shape, without the large scale factor that is required for the analogous result in the abstract tile assembly model. These results suggest that controlled self-assembly provides additional algorithmic power over tile-only self-assembly, and that non-local control enhances our ability to perform computation and algorithmically self-assemble structures from small input programs.
+                        </p>
+                    </div>
+
+                </li>
+            </ul>
+
+            <h2>Contact</h2>
+
+            <img src="img/email.png" height=40px />
+        </div>
+    </div>
+        <div class="footer">Last updated: December 23, 2015</div>
+    </body>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71728613-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
 </html>
