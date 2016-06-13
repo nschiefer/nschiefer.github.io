@@ -47,12 +47,22 @@
                 
                 <img class="photo" src="img/bio_photo.jpg" height=200px />
                 <p>
-                I am a <span class="us">senior</span><span class="ca">fourth-year</span> at <a href="http://caltech.edu">Caltech</a> in the <a href="http://cms.caltech.edu">computer science</a> option.
-                My research interests focus on algorithms and algorithmic <span class="us">behaviour</span><span class="ca">behaviour</span>, with a focus on algorithms in useful or unusual settings.
-                I have research experience in several different fields, including information retrieval, computational biophysics, quantum computing, molecular programming, and causal inference.
+                I recently graduated from <a href="http://caltech.edu">Caltech</a> where I was a student in the <a href="http://cms.caltech.edu">computer science</a> option.
+                In the fall, I will begin a PhD with the <a href="http://toc.csail.mit.edu/">Theory of Computing</a> group at <a href="http://mit.edu">MIT</a>.
                 </p>
-                
-                <p>Originally from Toronto, Canada, I am a proud member and former <a href="http://ihc.caltech.edu/">president</a> of <a href="https://dabney.caltech.edu">Dabney House</a>.</p>
+
+                <p>
+                I am broadly interested in the design and analysis of algorithms, especially in useful or unusual settings.
+                In the past, I have done research in several different fields, including information retrieval, computational biophysics, quantum computing, molecular programming, and causal inference.
+                </p>
+
+                <p>At Caltech, I was
+                <a href="http://ihc.caltech.edu">heavily</a>
+                <a href="https://dabney.caltech.edu">involved</a>
+                <a href="http://arc.caltech.edu">in</a>
+                <a href="http://oof.caltech.edu">student</a>
+                <a href="http://deans.caltech.edu">government</a>.
+                </p>
 
                 <p>My <a href="pdf/cv.pdf" onclick="ga('send', 'pageview', '/pdf/cv.pdf')">CV</a> is available.</p>
             </p>
@@ -61,6 +71,28 @@
             <h2>Publications</h2>
 
             <ul class="pubs-list">
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2016-dna22-crn-tam')">[abstract]</a>
+                        <a href="#">[to appear]</a>
+                        <!--<a href="#" onclick="ga('send', 'pageview', '/papers/2016-dna22-crn-tam.pdf')">[pdf]</a>-->
+                    </div>
+                    <div class="citation">
+                        <span class="my-name">Nicholas Schiefer</span> and
+                        <a href="http://www.dna.caltech.edu/~winfree/">Erik Winfree</a>, “Time Complexity of Computation and Construction in the Chemical Reaction Network-Controlled Tile Assembly Model”,
+                        <em>to appear in the 22nd International Conference on DNA Computing and Molecular Programming
+                            (<a href="http://dna22.edu/">DNA22</a>)</em>,
+                        2016.
+                    </div>
+                    
+                    <div class="abstract" id="2016-dna22-crn-tam" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                          In isolation, chemical reaction networks and tile-based self-assembly are well-studied models of chemical computation. Previously, we introduced the chemical reaction network-controlled tile assembly model (CRN-TAM), in which a stochastic chemical reaction network can act as a non-local control and signalling system for a tile-based assembly system, and showed that the CRN-TAM can perform several tasks related to the simulation of Turing machines and construction of algorithmic shapes with lower program complexity than in either of its parent models. Here, we give a kinetic model for the CRN-TAM and investigate the time complexity of Turing-universal computation and construction of shapes. We analyze the time complexity of decision problems in the CRN-TAM, and show that decidable languages can be decided as efficiently by CRN- AM programs as on Turing machines and give a lower bound for the space-time complexity of CRN-TAM computation that rules out efficient parallel stack machines. We provide efficient parallel implementations of non-deterministic computations, showing among other things that the CRN-TAM can decide problems in NTIME(f(n)) ∩ coNTIME(f(n)) in O(f(n)) time with 1−ε probability if given exponential volume. Lastly, we provide basic mechanisms for parallel computations that share information and illustrate the limits of parallel computation in the CRN-TAM.
+                        </p>
+                    </div>
+
+                </li>
                 <li>
                     <div class="metadata">
                         <a href="javascript:toggleAbstract('2015-dna21-crn-tam')">[abstract]</a>
