@@ -47,6 +47,7 @@ ul.pubs-list {
 
 .pubs-list li {
     position: relative;
+    margin-bottom: 1em;
 }
 
 li .metadata {
