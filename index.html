@@ -47,15 +47,15 @@
                 
                 <img class="photo" src="img/bio_photo.jpg" height=200px />
                 <p>
-                I recently graduated from <a href="http://caltech.edu">Caltech</a> where I was a student in the <a href="http://cms.caltech.edu">computer science</a> option.
-                In the fall, I will begin a PhD with the <a href="http://toc.csail.mit.edu/">Theory of Computing</a> group at <a href="http://mit.edu">MIT</a>.
-                </p>
-
+                I am a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I am privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
+                I work primarily on sketching problems in machine learning.
                 <p>
-                I am broadly interested in the design and analysis of algorithms, especially in useful or unusual settings.
-                In the past, I have done research in several different fields, including information retrieval, computational biophysics, quantum computing, molecular programming, and causal inference.
+                I am broadly interested in the design and analysis of algorithms, especially when it involves randomness and applications to large data sets.
                 </p>
 
+                </p>
+                Previously, I graduated from <a href="http://caltech.edu">Caltech</a> with a degree in <a href="http://cms.caltech.edu">computer science</a> in 2012.
+                </p>
                 <p>At Caltech, I was
                 <a href="http://ihc.caltech.edu">heavily</a>
                 <a href="https://dabney.caltech.edu">involved</a>
@@ -74,13 +74,13 @@
                 <li>
                     <div class="metadata">
                         <a href="javascript:toggleAbstract('2016-dna22-crn-tam')">[abstract]</a>
-                        <a href="#">[to appear]</a>
-                        <!--<a href="#" onclick="ga('send', 'pageview', '/papers/2016-dna22-crn-tam.pdf')">[pdf]</a>-->
+                        <a href="http://link.springer.com/chapter/10.1007/978-3-319-21999-8_3">[link]</a>
+                        <a href="papers/2016-dna22-crn-tam.pdf" onclick="ga('send', 'pageview', '/papers/2016-dna22-crn-tam.pdf')">[pdf]</a>
                     </div>
                     <div class="citation">
                         <span class="my-name">Nicholas Schiefer</span> and
                         <a href="http://www.dna.caltech.edu/~winfree/">Erik Winfree</a>, “Time Complexity of Computation and Construction in the Chemical Reaction Network-Controlled Tile Assembly Model”,
-                        <em>to appear in the 22nd International Conference on DNA Computing and Molecular Programming
+                        <em>22nd International Conference on DNA Computing and Molecular Programming
                             (<a href="http://dna22.eu/">DNA22</a>)</em>,
                         2016.
                     </div>
@@ -88,7 +88,7 @@
                     <div class="abstract" id="2016-dna22-crn-tam" style="display: none;">
                         <h4>Abstract</h4>
                         <p>
-                          In isolation, chemical reaction networks and tile-based self-assembly are well-studied models of chemical computation. Previously, we introduced the chemical reaction network-controlled tile assembly model (CRN-TAM), in which a stochastic chemical reaction network can act as a non-local control and signalling system for a tile-based assembly system, and showed that the CRN-TAM can perform several tasks related to the simulation of Turing machines and construction of algorithmic shapes with lower program complexity than in either of its parent models. Here, we give a kinetic model for the CRN-TAM and investigate the time complexity of Turing-universal computation and construction of shapes. We analyze the time complexity of decision problems in the CRN-TAM, and show that decidable languages can be decided as efficiently by CRN- AM programs as on Turing machines and give a lower bound for the space-time complexity of CRN-TAM computation that rules out efficient parallel stack machines. We provide efficient parallel implementations of non-deterministic computations, showing among other things that the CRN-TAM can decide problems in NTIME(f(n)) ∩ coNTIME(f(n)) in O(f(n)) time with 1−ε probability if given exponential volume. Lastly, we provide basic mechanisms for parallel computations that share information and illustrate the limits of parallel computation in the CRN-TAM.
+                        In isolation, chemical reaction networks and tile-based self-assembly are well-studied models of chemical computation. Previously, we introduced the chemical reaction network-controlled tile assembly model (CRN-TAM), in which a stochastic chemical reaction network can act as a non-local control and signalling system for tile-based assembly, and showed that the CRN-TAM can perform several tasks related to the simulation of Turing machines and construction of algorithmic shapes with lower space or program complexity than in either of its parent models. Here, we introduce a kinetic variant of the CRN-TAM and investigate the time complexity of computation and construction. We analyze the time complexity of decision problems in the CRN-TAM, and show that decidable languages can be decided as efficiently by CRN-TAM programs as by Turing machines. We also give a lower bound for the space-time complexity of CRN-TAM computation that rules out efficient parallel stack machines. We provide efficient parallel implementations of non-deterministic computations, showing among other things that CRN-TAM programs can decide languages in NTIME &cap; coNTIME(f(n)) in O(f(n) + n + log c) time with (1 - exp (-c)) probability, using volume exponential in n. Lastly, we provide basic mechanisms for parallel computations that share information and illustrate the limits of parallel computation in the CRN-TAM.
                         </p>
                     </div>
 
@@ -118,11 +118,15 @@
             </ul>
 
             <h2>Contact</h2>
-
-            <img src="img/email.png" height=40px />
+            <dl>
+              <dt>Email:</dt>
+              <dd><img src="img/email.png" height=40px /></dd>
+              <dt>Office:</dt>
+              <dd>MIT CSAIL, room 32-G580</dd>
+            </dl>
         </div>
     </div>
-        <div class="footer">Last updated: June 13, 2016</div>
+        <div class="footer">Last updated: August 24, 2017</div>
     </body>
 
 </html>
