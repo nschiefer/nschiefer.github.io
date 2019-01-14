@@ -47,10 +47,11 @@
                 
                 <img class="photo" src="img/bio_photo.jpg" height=200px />
                 <p>
-                I am a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I am privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
-                I work primarily on sketching problems in machine learning.
+                I work at <a href="https://www.apple.com">Apple</a> on database systems for <a href="https://developer.apple.com/icloud/cloudkit/">iCloud</a>.
+                Before joining Apple, I was a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I worked on sketching problems in machine learning and was privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
+                </p>
                 <p>
-                I am broadly interested in the design and analysis of algorithms, especially when it involves randomness and applications to large data sets.
+                I am broadly interested in the design, analysis, and application of algorithms, especially when they involve randomness and applications to large data sets.
                 </p>
 
                 </p>
@@ -71,6 +72,27 @@
             <h2>Publications</h2>
 
             <ul class="pubs-list">
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2018-ipdps2018-fill-estimation')">[abstract]</a>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8425208/">[link]</a>
+                        <a href="papers/2018-ipdps2018-fill-estimation.pdf" onclick="ga('send', 'pageview', '/papers/2018-ipdps2018-fill-estimation.pdf')">[pdf]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://www.csail.mit.edu/person/peter-ahrens">Peter Ahrens</a>,
+                        <a href="https://www.csail.mit.edu/person/helen-xu">Helen Xu</a>, and
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        “A Fill Estimation Algorithm for Sparse Matrices and Tensors in Blocked Formats”,
+                        <em>2018 IEEE International Parallel and Distributed Processing Symposium (<a href="http://www.ipdps.org/ipdps2018/index.html">IPDPS 2018</a>)</em>,
+                        2018.
+                    </div> 
+                    <div class="abstract" id="2018-ipdps2018-fill-estimation" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                        Many sparse matrices and tensors from a variety of applications, such as finite element methods and computational chemistry, have a natural aligned rectangular nonzero block structure. Researchers have designed high-performance blocked sparse operations which can take advantage of this sparsity structure to reduce the complexity of storing the locations of nonzeros. The performance of a blocked sparse operation depends on how well the block size reflects the structure of nonzeros in the tensor. Sparse tensor structure is generally unknown until runtime, so block size selection must be efficient. The fill is a quantity which, for some block size, relates the number of nonzero blocks to the number of nonzeros. Many performance models use the fill to help choose a block size. However, the fill is expensive to compute exactly. We present a sampling-based algorithm called Phil to estimate the fill of sparse matrices and tensors in any format. We provide theoretical guarantees for sparse matrices and tensors, and experimental results for matrices. The existing state-of-the-art fill estimation algorithm, which we will call OSKI, runs in time linear in the number of elements in the tensor. The number of samples Phil needs to compute a fill estimate is unrelated to the number of nonzeros and depends only on the order (number of dimensions) of the tensor, desired accuracy of the estimate, desired probability of achieving this accuracy, and number of considered block sizes. We compare Phil and OSKI on a suite of 42 matrices. On most inputs, Phil estimates the fill at least 2 times faster and often more than 20 times faster than OSKI. Phil consistently produced accurate estimates; in all cases that we tested Phil was faster and/or more accurate than OSKI. Finally, we find that Phil and OSKI produce comparable speedups in multicore blocked sparse matrix-vector multiplication (SpMV) when the block size was chosen using fill estimates in a model due to Vuduc et al.
+                        </p>
+                    </div> 
+                </li>
                 <li>
                     <div class="metadata">
                         <a href="javascript:toggleAbstract('2016-dna22-crn-tam')">[abstract]</a>
@@ -104,7 +126,7 @@
                         <a href="http://www.dna.caltech.edu/~winfree/">Erik Winfree</a>, “Universal Computation and Optimal Construction in the Chemical Reaction Network-Controlled Tile Assembly Model”,
                         <em>21st International Conference on DNA Computing and Molecular Programming
                             (<a href="http://dna21.wyss.harvard.edu/">DNA21</a>)</em>,
-                        2015, <em>Lecture Notes in Computer Science</em> vol. 9211, pp. 34–54.
+                        2015.
                     </div>
                     
                     <div class="abstract" id="2015-dna21-crn-tam" style="display: none;">
@@ -121,12 +143,10 @@
             <dl>
               <dt>Email:</dt>
               <dd><img src="img/email.png" height=40px /></dd>
-              <dt>Office:</dt>
-              <dd>MIT CSAIL, room 32-G580</dd>
             </dl>
         </div>
     </div>
-        <div class="footer">Last updated: August 24, 2017</div>
+        <div class="footer">Last updated: January 13, 2019</div>
     </body>
 
 </html>
