@@ -47,7 +47,7 @@
                 
                 <img class="photo" src="img/bio_photo.jpg" height=200px />
                 <p>
-                I work at <a href="https://www.apple.com">Apple</a> on database systems for <a href="https://developer.apple.com/icloud/cloudkit/">iCloud</a>.
+                I work at <a href="https://www.apple.com">Apple</a> on database systems for <a href="https://developer.apple.com/icloud/cloudkit/">iCloud</a>, including the <a href="https://www.foundationdb.org/">FoundationDB</a> <a href="https://github.com/foundationdb/fdb-record-layer">Record Layer</a>.
                 Before joining Apple, I was a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I worked on sketching problems in machine learning and was privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
                 </p>
                 <p>
@@ -72,6 +72,36 @@
             <h2>Publications</h2>
 
             <ul class="pubs-list">
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2019-sigmod2019-record-layer')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/1901.04452" onclick="ga('send', 'pageview', 'papers/2019-sigmod2019-record-layer')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://scholar.google.com/citations?user=BvUi1A0AAAAJ">Christos Chrysafis</a>,
+                        <a href="https://github.com/TheBenCollins">Ben Collins</a>,
+                        <a href="https://github.com/ScottDugas">Scott Dugas</a>,
+                        <a href="https://github.com/jaydunk">Jay Dunkelberger</a>,
+                        <a href="https://www3.cs.stonybrook.edu/~mehsan/">Moussa Ehsan</a>,
+                        <a href="https://github.com/scgray">Scott Gray</a>,
+                        <a href="https://github.com/alecgrieser">Alec Grieser</a>,
+                        <a href="https://github.com/oriherrnstadt">Ori Herrnstadt</a>,
+                        <a href="https://kfirlevari.github.io/">Kfir Lev-Ari</a>,
+                        <a href="https://scholar.google.com/citations?user=Buo5LL0AAAAJ">Tao Lin</a>,
+                        <a href="https://github.com/mmcm">Mike McMahon</a>,
+                        <span class="my-name">Nicholas Schiefer</span>, and
+                        <a href="http://www.cs.technion.ac.il/~shralex/">Alexander Shraer</a>,
+                        “FoundationDB Record Layer: A Multi-Tenant Structured Datastore”,
+                        to appear in <em>2019 International Conference on Management of Data, Industry Track (<a href="http://sigmod2019.org/">SIGMOD 2019</a>)</em>,
+                        2019.
+                    </div> 
+                    <div class="abstract" id="2019-sigmod2019-record-layer" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                        The FoundationDB Record Layer is an open source library that provides a record-oriented data store with semantics similar to a relational database implemented on top of FoundationDB, an ordered, transactional key-value store. The Record Layer provides a lightweight, highly extensible way to store structured data. It offers schema management and a rich set of query and indexing facilities, some of which are not usually found in traditional relational databases, such as nested record types, indexes on commit versions, and indexes that span multiple record types. The Record Layer is stateless and built for massive multi-tenancy, encapsulating and isolating all of a tenant's state, including indexes, into a separate logical database. We demonstrate how the Record Layer is used by CloudKit, Apple's cloud backend service, to provide powerful abstractions to applications serving hundreds of millions of users. CloudKit uses the Record Layer to host billions of independent databases, many with a common schema. Features provided by the Record Layer enable CloudKit to provide richer APIs and stronger semantics with reduced maintenance overhead and improved scalability.
+                        </p>
+                    </div> 
+                </li>
                 <li>
                     <div class="metadata">
                         <a href="javascript:toggleAbstract('2018-ipdps2018-fill-estimation')">[abstract]</a>
@@ -146,7 +176,7 @@
             </dl>
         </div>
     </div>
-        <div class="footer">Last updated: January 13, 2019</div>
+        <div class="footer">Last updated: March 30, 2019</div>
     </body>
 
 </html>
