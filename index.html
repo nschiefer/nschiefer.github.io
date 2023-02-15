@@ -47,31 +47,379 @@
                 
                 <img class="photo" src="img/bio_photo.jpg" height=200px />
                 <p>
-                I am a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I am privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
-                From 2017 to 2020, I was a software engineer at <a href="https://www.apple.com">Apple</a>, where I built database systems for <a href="https://developer.apple.com/icloud/cloudkit/">iCloud</a>, including the <a href="https://www.foundationdb.org/">FoundationDB</a> <a href="https://github.com/foundationdb/fdb-record-layer">Record Layer</a>.
+                    I am a Member of Technical Staff at <a href="https://www.anthropic.com/">Anthropic</a>", an AI safety and research company.
+                    I spend most of my time building evaluations of large language models with the eventual aim of understanding whether they could pose <a href="https://www.cold-takes.com/how-we-could-stumble-into-ai-catastrophe/">catastrophic risks</a>.
+                    I also build software tools to make it easier to do research on large language models.
+                </p>
+
+                <p>
+                    These days I am most interested in large language models, the science of deep learning, mechanistic interpretability, and the early field of "alignment science", which asks: How do we know what an AI system is trying to do?
+                </p>
+
+                <p>
+                    Prior to joining Anthropic, I was a graduate student in <a href="http://www.eecs.mit.edu/">computer science</a> at <a href="http://mit.edu">MIT</a>, where I was privileged to be advised by <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>.
                 </p>
                 <p>
-                I am broadly interested in algorithms, high-dimensional geometry, statistics, information systems, and tools that help people use the previous entries in this list.
+                    My main project at MIT was <a href="https://riffle.systems/essays/prelude/">Riffle</a>, a project applying ideas from database design to app development, in collobration with <a href="https://www.geoffreylitt.com/">Geoffrey Litt</a>,
+                    <a href="https://twitter.com/schickling">Johannes Schickling</a>, and <a href="http://people.csail.mit.edu/dnj/">Daniel Jackson</a>. I continue to work on the Riffle project in an adivsory role.
                 </p>
 
-                </p>
-                Previously, I graduated from <a href="http://caltech.edu">Caltech</a> with a degree in <a href="http://cms.caltech.edu">computer science</a> in 2016.
-                </p>
-                <p>At Caltech, I was
-                <a href="http://ihc.caltech.edu">heavily</a>
-                <a href="https://dabney.caltech.edu">involved</a>
-                <a href="http://arc.caltech.edu">in</a>
-                <a href="http://oof.caltech.edu">student</a>
-                <a href="http://deans.caltech.edu">government</a>.
+                <p>
+                    From 2017 to 2020, I was a software engineer at <a href="https://www.apple.com">Apple</a>, where I built database systems for <a href="https://developer.apple.com/icloud/cloudkit/">iCloud</a>, including the <a href="https://www.foundationdb.org/">FoundationDB</a> <a href="https://github.com/foundationdb/fdb-record-layer">Record Layer</a>.
                 </p>
 
-                <p>My <a href="pdf/cv.pdf" onclick="ga('send', 'pageview', '/pdf/cv.pdf')">CV</a> is available.</p>
-            </p>
+
+                    </p>
+                    I graduated from <a href="http://caltech.edu">Caltech</a> with a degree in <a href="http://cms.caltech.edu">computer science</a> in 2016.
+                    At Caltech, I was
+                    <a href="http://ihc.caltech.edu">heavily</a>
+                    <a href="https://dabney.caltech.edu">involved</a>
+                    <a href="http://arc.caltech.edu">in</a>
+                    <a href="http://oof.caltech.edu">student</a>
+                    <a href="http://deans.caltech.edu">government</a>.
+                    </p>
+
+                    <p>My (outdated) <a href="pdf/cv.pdf" onclick="ga('send', 'pageview', '/pdf/cv.pdf')">CV</a> is available.</p>
             </div>
 
             <h2>Publications</h2>
 
             <ul class="pubs-list">
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-anthropic-constitutional-ai')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2212.08073" onclick="ga('send', 'pageview', 'papers/2022-anthropic-2022-anthropic-constitutional-ai')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://scholar.google.com/citations?user=r7GUEVsAAAAJ&hl=en">Yuntao Bai</a>,
+                        <a href="https://scholar.google.com/citations?user=zm0IZowAAAAJ&hl=en">Saurav Kadavath</a>,
+                        <a href="https://scholar.google.com/citations?user=TDz92W8AAAAJ&hl=en">Sandipan Kundu</a>,
+                        <a href="https://askell.io/">Amanda Askell</a>,
+                        <a href="https://jacksonkernion.com/">Jackson Kernion</a>,
+                        <a href="https://andyljones.com/">Andy Jones</a>,
+                        <a href="https://www.linkedin.com/in/annaitchen/">Anna Chen</a>,
+                        <a href="https://www.annagoldie.com/">Anna Goldie</a>,
+                        <a href="http://azaliamirhoseini.com/">Azalia Mirhoseini</a>,
+                        <a href="https://www.linkedin.com/in/cam-mckinnon-03496524/">Cameron McKinnon</a>,
+                        <a href="https://kipp.ly/">Carol Chen</a>,
+                        <a href="https://twitter.com/catherineols">Catherine Olsson</a>,
+                        <a href="https://colah.github.io/about.html">Christopher Olah</a>,
+                        <a href="https://twitter.com/Hernandez_Danny">Danny Hernandez</a>,
+                        <a href="https://scholar.google.com/citations?user=NIrBaDIAAAAJ&hl=en">Dawn Drain</a>,
+                        <a href="https://scholar.google.com/citations?user=rG3xW3UAAAAJ&hl=en">Deep Ganguli</a>,
+                        <a href="https://www.linkedin.com/in/dustin-li/">Dustin Li</a>,
+                        <a href="https://www.linkedin.com/in/erijohnt/">Eli Tran-Johnson</a>,
+                        <a href="https://ethanperez.net/">Ethan Perez</a>,
+                        <a href="https://www.linkedin.com/in/jamiedkerr/">Jamie Kerr</a>,
+                        <a href="https://www.linkedin.com/in/jm503/">Jared Mueller</a>,
+                        <a href="https://jeffreyladish.com/">Jeffrey Ladish</a>,
+                        Joshua Landau,
+                        <a href="https://kam.al/about/">Kamal Ndousse</a>,
+                        <a href="https://kamilelukosiute.com/">Kamilė Lukošiūtė</a>
+                        <a href="https://www.linkedin.com/in/lianelovitt/">Liane Lovitt</a>,
+                        <a href="">Michael Sellitto</a>,
+                        <a href="https://nelhage.com/">Nelson Elhage</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://www.linkedin.com/in/noemiemercado/">Noemí Mercado</a>,
+                        <a href="https://twitter.com/dropbella">Nova DasSarma</a>,
+                        <a href="https://scholar.google.com/citations?user=KWbsOn8AAAAJ&hl=en">Robert Lasenby</a>,
+                        Robin Larson,
+                        <a href="https://samringer.github.io/">Sam Ringer</a>,
+                        <a href="https://scholar.google.com/citations?user=MCqCJngAAAAJ&hl=en">Scott Johnston</a>,
+                        <a href="https://celest.ai/">Shauna Kravec</a>,
+                        <a href="https://scholar.google.com/citations?user=bGKBjuwAAAAJ&hl=en">Sheer El-Showk</a>,
+                        <a href="https://stanislavfort.github.io/">Stanislav Fort</a>,
+                        <a href="">Tamera Lanham</a>,
+                        <a href="https://www.linkedin.com/in/timothytl/">Timothy Telleen-Lawton</a>,
+                        <a href="https://www.linkedin.com/in/tom-conerly-a56a095/">Tom Conerly</a>,
+                        <a href="https://tomhenighan.com/">Tom Henighan</a>,
+                        <a href="https://thume.ca/">Tristan Hume</a>,
+                        <a href="https://cims.nyu.edu/~sbowman/">Samuel R. Bowman</a>,
+                        <a href="https://zhd.dev/">Zac Hatfield-Dodds</a>,
+                        <a href="https://benjmann.net/">Ben Mann</a>,
+                        <a href="https://scholar.google.com/citations?user=6-e-ZBEAAAAJ&hl=en">Dario Amodei</a>,
+                        <a href="https://www.linkedin.com/in/njoseph2/">Nicholas Joseph</a>,
+                        <a href="https://scholar.google.com/citations?user=gHp0pu4AAAAJ&hl=en">Sam McCandlish</a>,
+                        <a href="https://github.com/nottombrown">Tom Brown</a>, and
+                        <a href="https://sites.krieger.jhu.edu/jared-kaplan/">Jared Kaplan</a>
+
+                        “Constitutional AI: Harmlessness from AI Feedback”,
+                        <em>arXiv preprint</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-anthropic-constitutional-ai" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-engineering-monosemanticity')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2211.09169" onclick="ga('send', 'pageview', '/papers/2022-engineering-monosemanticity')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://adamjermyn.com/">Adam S. Jermyn</a>,
+                        <span class="my-name">Nicholas Schiefer</span>, and
+                        <a href="https://evhub.github.io/">Evan Hubinger</a>
+                        “Engineering Monosemanticity in Toy Models”,
+                        <em>arXiv Preprint</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-engineering-monosemanticity" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            In some neural networks, individual neurons correspond to natural "features" in the input. Such <em>monosemantic</em> neurons are of great help in interpretability studies, as they can be cleanly understood. In this work we report preliminary attempts to engineer monosemanticity in toy models. We find that models can be made more monosemantic without increasing the loss by just changing which local minimum the training process finds. More monosemantic loss minima have moderate negative biases, and we are able to use this fact to engineer highly monosemantic models. We are able to mechanistically interpret these models, including the residual polysemantic neurons, and uncover a simple yet surprising algorithm. Finally, we find that providing models with more neurons per layer makes the models more monosemantic, albeit at increased computational cost. These findings point to a number of new questions and avenues for engineering monosemanticity, which we intend to study these in future work. 
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-neurips22-wl-test')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2211.03232" onclick="ga('send', 'pageview', '/papers/2022-2022-neurips22-wl-test')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://scholar.google.com/citations?user=WpIvLroAAAAJ&hl=en">Anders Aamand</a>,
+                        <a href="https://people.csail.mit.edu/justc/">Justin Y. Chen</a>,
+                        <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a>,
+                        <a href="https://sites.google.com/view/shyamnarayanan">Shyam Narayanan</a>,
+                        <a href="https://people.csail.mit.edu/ronitt/">Ronitt Rubinfeld</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://sandeepsilwal.com/">Sandeep Silwal</a>, and
+                        <a href="https://www.mit.edu/~talw/">Tal Wagner</a>
+                        “Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks”,
+                        <em>36th Conference on Neural Information Processing Systems (<a href="https://neurips.cc/Conferences/2022">NeurIPS 2022</a>)</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-neurips22-wl-test" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            Recent work shows that the expressive power of Graph Neural Networks (GNNs) in distinguishing non-isomorphic graphs is exactly the same as that of the Weisfeiler-Lehman (WL) graph test. In particular, they show that the WL test can be simulated by GNNs. However, those simulations involve neural networks for the 'combine' function of size polynomial or even exponential in the number of graph nodes , as well as feature vectors of length linear in . We present an improved simulation of the WL test on GNNs with \emph{exponentially} lower complexity. In particular, the neural network implementing the combine function in each node has only a polylogarithmic number of parameters in , and the feature vectors exchanged by the nodes of GNN consists of only bits. We also give logarithmic lower bounds for the feature vector length and the size of the neural networks, showing the (near)-optimality of our construction.
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-anthropic-sandwiching')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2211.03540" onclick="ga('send', 'pageview', 'papers/2022-anthropic-sandwiching')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://cims.nyu.edu/~sbowman/">Samuel R. Bowman</a>,
+                        <a href="https://jeeyoonhyun.com/">Jeeyoon Hyun</a>,
+                        <a href="https://ethanperez.net/">Ethan Perez</a>,
+                        <a href="http://blog.echen.me/">Edwin Chen</a>,
+                        Craig Pettit,
+                        <a href="https://www.linkedin.com/in/scott-heiner/">Scott Heiner</a>,
+                        <a href="https://kamilelukosiute.com/">Kamilė Lukošiūtė</a>
+                        <a href="https://askell.io/">Amanda Askell</a>,
+                        <a href="https://andyljones.com/">Andy Jones</a>,
+                        <a href="https://www.linkedin.com/in/annaitchen/">Anna Chen</a>,
+                        <a href="https://www.annagoldie.com/">Anna Goldie</a>,
+                        <a href="http://azaliamirhoseini.com/">Azalia Mirhoseini</a>,
+                        <a href="https://www.linkedin.com/in/cam-mckinnon-03496524/">Cameron McKinnon</a>,
+                        <a href="https://colah.github.io/about.html">Christopher Olah</a>,
+                        <a href="https://twitter.com/DanielaAmodei">Daniela Amodei</a>,
+                        <a href="https://scholar.google.com/citations?user=6-e-ZBEAAAAJ&hl=en">Dario Amodei</a>,
+                        <a href="https://scholar.google.com/citations?user=NIrBaDIAAAAJ&hl=en">Dawn Drain</a>,
+                        <a href="https://www.linkedin.com/in/dustin-li/">Dustin Li</a>,
+                        <a href="https://www.linkedin.com/in/erijohnt/">Eli Tran-Johnson</a>,
+                        <a href="https://jacksonkernion.com/">Jackson Kernion</a>,
+                        <a href="https://www.linkedin.com/in/jamiedkerr/">Jamie Kerr</a>,
+                        <a href="https://www.linkedin.com/in/jm503/">Jared Mueller</a>,
+                        <a href="https://jeffreyladish.com/">Jeffrey Ladish</a>,
+                        Joshua Landau,
+                        <a href="https://kam.al/about/">Kamal Ndousse</a>,
+                        <a href="https://www.linkedin.com/in/lianelovitt/">Liane Lovitt</a>,
+                        <a href="https://nelhage.com/">Nelson Elhage</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://www.linkedin.com/in/njoseph2/">Nicholas Joseph</a>,
+                        <a href="https://www.linkedin.com/in/noemiemercado/">Noemí Mercado</a>,
+                        <a href="https://twitter.com/dropbella">Nova DasSarma</a>,
+                        Robin Larson,
+                        <a href="https://scholar.google.com/citations?user=gHp0pu4AAAAJ&hl=en">Sam McCandlish</a>,
+                        <a href="https://scholar.google.com/citations?user=TDz92W8AAAAJ&hl=en">Sandipan Kundu</a>,
+                        <a href="https://scholar.google.com/citations?user=MCqCJngAAAAJ&hl=en">Scott Johnston</a>,
+                        <a href="https://celest.ai/">Shauna Kravec</a>,
+                        <a href="https://scholar.google.com/citations?user=bGKBjuwAAAAJ&hl=en">Sheer El-Showk</a>,
+                        <a href="https://stanislavfort.github.io/">Stanislav Fort</a>,
+                        <a href="https://www.linkedin.com/in/timothytl/">Timothy Telleen-Lawton</a>,
+                        <a href="https://github.com/nottombrown">Tom Brown</a>,
+                        <a href="https://tomhenighan.com/">Tom Henighan</a>,
+                        <a href="https://thume.ca/">Tristan Hume</a>,
+                        <a href="https://scholar.google.com/citations?user=r7GUEVsAAAAJ&hl=en">Yuntao Bai</a>,
+                        <a href="https://zhd.dev/">Zac Hatfield-Dodds</a>,
+                        <a href="https://benjmann.net/">Ben Mann</a>, and
+                        <a href="https://sites.krieger.jhu.edu/jared-kaplan/">Jared Kaplan</a>
+                        “Measuring Progress on Scalable Oversight for Large Language Models”,
+                        <em>arXiv preprint</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-anthropic-sandwiching" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            Developing safe and useful general-purpose AI systems will require us to make progress on scalable oversight: the problem of supervising systems that potentially outperform us on most skills relevant to the task at hand. Empirical work on this problem is not straightforward, since we do not yet have systems that broadly exceed our abilities. This paper discusses one of the major ways we think about this problem, with a focus on ways it can be studied empirically. We first present an experimental design centered on tasks for which human specialists succeed but unaided humans and current general AI systems fail. We then present a proof-of-concept experiment meant to demonstrate a key feature of this experimental design and show its viability with two question-answering tasks: MMLU and time-limited QuALITY. On these tasks, we find that human participants who interact with an unreliable large-language-model dialog assistant through chat -- a trivial baseline strategy for scalable oversight -- substantially outperform both the model alone and their own unaided performance. These results are an encouraging sign that scalable oversight will be tractable to study with present models and bolster recent findings that large language models can productively assist humans with difficult tasks. 
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-anthropic-toy-models')">[abstract]</a>
+                        <a href="https://transformer-circuits.pub/2022/toy_model/index.html" onclick="ga('send', 'pageview', 'papers/2022-anthropic-toy-models')">[link]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://nelhage.com/">Nelson Elhage</a>,
+                        <a href="https://thume.ca/">Tristan Hume</a>,
+                        <a href="https://twitter.com/catherineols">Catherine Olsson</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://tomhenighan.com/">Tom Henighan</a>,
+                        <a href="https://celest.ai/">Shauna Kravec</a>,
+                        <a href="https://zhd.dev/">Zac Hatfield-Dodds</a>,
+                        <a href="https://scholar.google.com/citations?user=KWbsOn8AAAAJ&hl=en">Robert Lasenby</a>,
+                        <a href="https://scholar.google.com/citations?user=NIrBaDIAAAAJ&hl=en">Dawn Drain</a>,
+                        <a href="https://kipp.ly/">Carol Chen</a>,
+                        <a href="https://www.cs.toronto.edu/~rgrosse/">Roger Grosse</a>,
+                        <a href="https://scholar.google.com/citations?user=gHp0pu4AAAAJ&hl=en">Sam McCandlish</a>,
+                        <a href="https://sites.krieger.jhu.edu/jared-kaplan/">Jared Kaplan</a>,
+                        <a href="https://scholar.google.com/citations?user=6-e-ZBEAAAAJ&hl=en">Dario Amodei</a>,
+                        <a href="https://www.bewitched.com/">Martin Wattenberg</a>, and
+                        <a href="https://colah.github.io/about.html">Christopher Olah</a>
+                        “Toy Models of Superposition”,
+                        <em>Transformer Circuits Thread</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-anthropic-toy-models" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            Neural networks often pack many unrelated concepts into a single neuron - a puzzling phenomenon known as 'polysemanticity' which makes interpretability much more challenging. This paper provides a toy model where polysemanticity can be fully understood, arising as a result of models storing additional sparse features in "superposition." We demonstrate the existence of a phase change, a surprising connection to the geometry of uniform polytopes, and evidence of a link to adversarial examples. We also discuss potential implications for mechanistic interpretability.
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-anthropic-red-teaming')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2209.07858" onclick="ga('send', 'pageview', 'papers/2022-anthropic-red-teaming')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://www.linkedin.com/in/lianelovitt/">Liane Lovitt</a>,
+                        <a href="https://jacksonkernion.com/">Jackson Kernion</a>,
+                        <a href="https://askell.io/">Amanda Askell</a>,
+                        <a href="https://scholar.google.com/citations?user=r7GUEVsAAAAJ&hl=en">Yuntao Bai</a>,
+                        <a href="https://scholar.google.com/citations?user=zm0IZowAAAAJ&hl=en">Saurav Kadavath</a>,
+                        <a href="https://benjmann.net/">Ben Mann</a>,
+                        <a href="https://ethanperez.net/">Ethan Perez</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://kam.al/about/">Kamal Ndousse</a>,
+                        <a href="https://andyljones.com/">Andy Jones</a>,
+                        <a href="https://cims.nyu.edu/~sbowman/">Sam Bowman</a>,
+                        <a href="https://www.linkedin.com/in/annaitchen/">Anna Chen</a>,
+                        <a href="https://www.linkedin.com/in/tom-conerly-a56a095/">Tom Conerly</a>,
+                        <a href="https://twitter.com/dropbella">Nova DasSarma</a>,
+                        <a href="https://scholar.google.com/citations?user=NIrBaDIAAAAJ&hl=en">Dawn Drain</a>,
+                        <a href="https://nelhage.com/">Nelson Elhage</a>,
+                        <a href="https://scholar.google.com/citations?user=bGKBjuwAAAAJ&hl=en">Sheer El-Showk</a>,
+                        <a href="https://stanislavfort.github.io/">Stanislav Fort</a>,
+                        <a href="https://zhd.dev/">Zac Hatfield-Dodds</a>,
+                        <a href="https://tomhenighan.com/">Tom Henighan</a>,
+                        <a href="https://thume.ca/">Tristan Hume</a>,
+                        <a href="https://www.linkedin.com/in/joshmjacobson/">Josh Jacobson</a>,
+                        <a href="https://scholar.google.com/citations?user=MCqCJngAAAAJ&hl=en">Scott Johnston</a>,
+                        <a href="https://celest.ai/">Shauna Kravec</a>,
+                        <a href="https://twitter.com/catherineols">Catherine Olsson</a>,
+                        <a href="https://samringer.github.io/">Sam Ringer</a>,
+                        <a href="https://www.linkedin.com/in/erijohnt/">Eli Tran-Johnson</a>,
+                        <a href="https://scholar.google.com/citations?user=6-e-ZBEAAAAJ&hl=en">Dario Amodei</a>,
+                        <a href="https://github.com/nottombrown">Tom Brown</a>,
+                        <a href="https://www.linkedin.com/in/njoseph2/">Nicholas Joseph</a>,
+                        <a href="https://scholar.google.com/citations?user=gHp0pu4AAAAJ&hl=en">Sam McCandlish</a>,
+                        <a href="https://colah.github.io/about.html">Chris Olah</a>,
+                        <a href="https://twitter.com/jackclarkSF">Jack Clark</a>, and
+                        <a href="https://sites.krieger.jhu.edu/jared-kaplan/">Jared Kaplan</a>
+                        “Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned”,
+                        <em>arXiv preprint</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-anthropic-red-teaming" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            We describe our early efforts to red team language models in order to simultaneously discover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using reinforcement learning from human feedback (RLHF). We find that the RLHF models are increasingly difficult to red team as they scale, and we find a flat trend with scale for the other model types. Second, we release our dataset of 38,961 red team attacks for others to analyze and learn from. We provide our own analysis of the data and find a variety of harmful outputs, which range from offensive language to more subtly harmful non-violent unethical outputs. Third, we exhaustively describe our instructions, processes, statistical methodologies, and uncertainty about red teaming. We hope that this transparency accelerates our ability to work together as a community in order to develop shared norms, practices, and technical standards for how to red team language models. 
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-anthropic-models-know')">[abstract]</a>
+                        <a href="https://arxiv.org/abs/2207.05221" onclick="ga('send', 'pageview', 'papers/2022-anthropic-models-know')">[preprint]</a>
+                    </div>
+                    <div class="citation">
+                        <a href="https://scholar.google.com/citations?user=zm0IZowAAAAJ&hl=en">Saurav Kadavath</a>,
+                        <a href="https://www.linkedin.com/in/tom-conerly-a56a095/">Tom Conerly</a>,
+                        <a href="https://askell.io/">Amanda Askell</a>,
+                        <a href="https://tomhenighan.com/">Tom Henighan</a>,
+                        <a href="https://scholar.google.com/citations?user=NIrBaDIAAAAJ&hl=en">Dawn Drain</a>,
+                        <a href="https://ethanperez.net/">Ethan Perez</a>,
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://zhd.dev/">Zac Hatfield-Dodds</a>,
+                        <a href="https://twitter.com/dropbella">Nova DasSarma</a>,
+                        <a href="https://www.linkedin.com/in/erijohnt/">Eli Tran-Johnson</a>,
+                        <a href="https://scholar.google.com/citations?user=MCqCJngAAAAJ&hl=en">Scott Johnston</a>,
+                        <a href="https://scholar.google.com/citations?user=bGKBjuwAAAAJ&hl=en">Sheer El-Showk</a>,
+                        <a href="https://andyljones.com/">Andy Jones</a>,
+                        <a href="https://nelhage.com/">Nelson Elhage</a>,
+                        <a href="https://thume.ca/">Tristan Hume</a>,
+                        <a href="https://www.linkedin.com/in/annaitchen/">Anna Chen</a>,
+                        <a href="https://scholar.google.com/citations?user=r7GUEVsAAAAJ&hl=en">Yuntao Bai</a>,
+                        <a href="https://cims.nyu.edu/~sbowman/">Sam Bowman</a>,
+                        <a href="https://stanislavfort.github.io/">Stanislav Fort</a>,
+                        <a href="https://scholar.google.com/citations?user=rG3xW3UAAAAJ&hl=en">Deep Ganguli</a>,
+                        <a href="https://twitter.com/Hernandez_Danny">Danny Hernandez</a>,
+                        <a href="https://www.linkedin.com/in/joshmjacobson/">Josh Jacobson</a>,
+                        <a href="https://jacksonkernion.com/">Jackson Kernion</a>,
+                        <a href="https://celest.ai/">Shauna Kravec</a>,
+                        <a href="https://www.linkedin.com/in/lianelovitt/">Liane Lovitt</a>,
+                        <a href="https://kam.al/about/">Kamal Ndousse</a>,
+                        <a href="https://twitter.com/catherineols">Catherine Olsson</a>,
+                        <a href="https://samringer.github.io/">Sam Ringer</a>,
+                        <a href="https://scholar.google.com/citations?user=6-e-ZBEAAAAJ&hl=en">Dario Amodei</a>,
+                        <a href="https://github.com/nottombrown">Tom Brown</a>,
+                        <a href="https://twitter.com/jackclarkSF">Jack Clark</a>,
+                        <a href="https://www.linkedin.com/in/njoseph2/">Nicholas Joseph</a>,
+                        <a href="https://benjmann.net/">Ben Mann</a>,
+                        <a href="https://scholar.google.com/citations?user=gHp0pu4AAAAJ&hl=en">Sam McCandlish</a>,
+                        <a href="https://colah.github.io/about.html">Chris Olah</a>, and
+                        <a href="https://sites.krieger.jhu.edu/jared-kaplan/">Jared Kaplan</a>
+                        “Language Models (Mostly) Know What They Know”,
+                        <em>arXiv preprint</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-anthropic-models-know" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            We study whether language models can evaluate the validity of their own claims and predict which questions they will be able to answer correctly. We first show that larger models are well-calibrated on diverse multiple choice and true/false questions when they are provided in the right format. Thus we can approach self-evaluation on open-ended sampling tasks by asking models to first propose answers, and then to evaluate the probability "P(True)" that their answers are correct. We find encouraging performance, calibration, and scaling for P(True) on a diverse array of tasks. Performance at self-evaluation further improves when we allow models to consider many of their own samples before predicting the validity of one specific possibility. Next, we investigate whether models can be trained to predict "P(IK)", the probability that "I know" the answer to a question, without reference to any particular proposed answer. Models perform well at predicting P(IK) and partially generalize across tasks, though they struggle with calibration of P(IK) on new tasks. The predicted P(IK) probabilities also increase appropriately in the presence of relevant source materials in the context, and to the presence of hints towards the solution of mathematical word problems. We hope these observations lay the groundwork for training more honest models, and for investigating how honesty generalizes to cases where models are trained on objectives other than the imitation of human writing.
+                        </p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="metadata">
+                        <a href="javascript:toggleAbstract('2022-papoc22-merge')">[abstract]</a>
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3517209.3524041" onclick="ga('send', 'pageview', 'papers/2022-papoc22-merge')">[link]</a>
+                        <a href="papers/2022-papoc22-merge.pdf" onclick="ga('send', 'pageview', '/papers/2022-papoc22-merge.pdf')">[pdf]</a>
+                    </div>
+                    <div class="citation">
+                        <span class="my-name">Nicholas Schiefer</span>,
+                        <a href="https://www.geoffreylitt.com/">Geoffrey Litt</a>, and
+                        <a href="http://people.csail.mit.edu/dnj/">Daniel Jackson</a>,
+                        “Merge what you can, fork what you can't: managing data integrity in local-first software”,
+                        <em>9th Workshop on Principles and Practice of Consistency for Distributed Data (<a href="https://papoc-workshop.github.io/2022/">PaPoC'22</a>)</em>,
+                        2022.
+                    </div> 
+                    <div class="abstract" id="2022-papoc22-merge" style="display: none;">
+                        <h4>Abstract</h4>
+                        <p>
+                            In a local-first architecture that prioritizes availability in the presence of network partitions, there is a tension between two goals: merging concurrent changes without user intervention and maintaining data integrity constraints. We propose a synchronization model called <em>forking histories</em> which satisfies both goals in an unconventional way. In the case of conflicting writes, the model exposes multiple event histories that users can see and edit rather than converging to a single state. This allows integrity constraints to be maintained within each history while giving users flexibility in deciding when to manually reconcile conflicts. We describe a class of applications for which these integrity constraints are particularly important and propose a design for a system that implements this model.
+                        </p>
+                    </div> 
+                </li>
                 <li>
                     <div class="metadata">
                         <a href="javascript:toggleAbstract('2019-sigmod2019-record-layer')">[abstract]</a>
@@ -176,7 +524,7 @@
             </dl>
         </div>
     </div>
-        <div class="footer">Last updated: August 31, 2020</div>
+        <div class="footer">Last updated: February 15, 2023</div>
     </body>
 
 </html>
